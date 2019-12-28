@@ -49,6 +49,11 @@ public class MoviesListPresenter: NSObject {
         
         return ""
     }
+    
+    func getMovie(index:Int) -> Movie {
+        return self.movies[index]
+    }
+    
 }
 
 extension MoviesListPresenter : MoviesListModelDelegate {
