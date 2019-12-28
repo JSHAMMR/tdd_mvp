@@ -14,6 +14,8 @@ target 'TDD_MVP' do
 
   target 'TDD_MVPUITests' do
     # Pods for testing
+    pod 'Swifter'
+
   end
 
 end
