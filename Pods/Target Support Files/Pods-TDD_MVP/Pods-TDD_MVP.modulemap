@@ -1,0 +1,6 @@
+framework module Pods_TDD_MVP {
+  umbrella header "Pods-TDD_MVP-umbrella.h"
+
+  export *
+  module * { export * }
+}
