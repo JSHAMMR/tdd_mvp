@@ -8,6 +8,7 @@
 
 import UIKit
 
-class Movie: NSObject {
-
+class Movie: Decodable{
+    var name:String?
+    var rating:String?
 }
