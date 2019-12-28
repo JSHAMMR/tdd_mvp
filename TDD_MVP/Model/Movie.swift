@@ -11,4 +11,6 @@ import UIKit
 class Movie: Decodable{
     var name:String?
     var rating:String?
+    var desc:String?
+
 }
